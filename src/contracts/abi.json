@@ -1,0 +1,69 @@
+[
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "to",
+        "type": "address"
+      }
+    ],
+    "name": "delegate",
+    "outputs": [],
+    "payable": false,
+    "type": "function",
+    "stateMutability": "nonpayable"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "winningProposal",
+    "outputs": [
+      {
+        "name": "_winningProposal",
+        "type": "uint8"
+      }
+    ],
+    "payable": false,
+    "type": "function",
+    "stateMutability": "view"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "toVoter",
+        "type": "address"
+      }
+    ],
+    "name": "giveRightToVote",
+    "outputs": [],
+    "payable": false,
+    "type": "function",
+    "stateMutability": "nonpayable"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "toProposal",
+        "type": "uint8"
+      }
+    ],
+    "name": "vote",
+    "outputs": [],
+    "payable": false,
+    "type": "function",
+    "stateMutability": "nonpayable"
+  },
+  {
+    "inputs": [
+      {
+        "name": "_numProposals",
+        "type": "uint8"
+      }
+    ],
+    "type": "constructor",
+    "payable": true,
+    "stateMutability": "payable"
+  }
+]
